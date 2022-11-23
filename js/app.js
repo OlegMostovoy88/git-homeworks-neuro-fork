@@ -1,4 +1,6 @@
 (async () => {
+    // TODO: add custom logic here
+})();(async () => {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(position => {
             const coordsEl = document.querySelector('#user-coords');
